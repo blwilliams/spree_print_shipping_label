@@ -2,7 +2,7 @@ Spree::Admin::OrdersController.class_eval do
   def label
     begin
       label = Spree::ShippingLabel.new params[:shipment_id]
-      RAILS.logger.info params
+      RAILS.logger.info "Params for label: #{params}"
     rescue Exception => e
       flash[:error] = e.message
       redirect_to :back
