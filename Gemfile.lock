@@ -3,7 +3,7 @@ PATH
   specs:
     spree_print_shipping_label (0.0.1)
       curb (~> 0.8.3)
-      nokogiri (~> 1.5.9)
+      nokogiri (~> 1.6.1)
       spree_core (~> 2.0.0)
 
 GEM
